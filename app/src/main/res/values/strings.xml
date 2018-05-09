@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZXing-Sample</string>
+
+    <string name="scan_top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+</resources>

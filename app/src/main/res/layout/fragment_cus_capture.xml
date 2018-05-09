@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.txby.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:inner_corner_color="@color/scan_corner_color"
+        app:inner_corner_length="30dp"
+        app:inner_corner_width="5dp"
+        app:inner_height="200dp"
+        app:inner_marginTop="150dp"
+        app:inner_scan_bitmap="@drawable/scan_image"
+        app:inner_scan_isCircle="false"
+        app:inner_scan_speed="10"
+        app:inner_width="200dp" />
+
+</FrameLayout>
